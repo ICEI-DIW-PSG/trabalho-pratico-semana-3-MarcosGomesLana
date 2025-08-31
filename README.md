@@ -10,17 +10,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Marcos Gomes de Oliveira Lana
+- Matricula: 899071
+- Proposta de projeto escolhida: Pessoas e Produções
+- Breve descrição sobre seu projeto: Este projeto tem como proposta divulgar grandes obras e conteúdos de autores de livros , além de oferecer um serviço de consulta sobre títulos ou trabalhos relacionados a eles.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![WireFrame](public/WireFrame.jpg)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Site Leia Comigo](public/siteLeiaComigo.PNG)

@@ -11,8 +11,10 @@ header{
 }
 nav {
     background-color: #F4E6A0;
-    text-align: center;
     padding: 10px;
+    text-align: center;
+
+    
 }
 nav a{
     color: white;
@@ -44,18 +46,32 @@ section{
     border-radius: 5px;
 }
 
-.livros article{
+
+
+#livro1{
     float: left;
     width: 48%;
     margin-right: 4%;
-    background-color:  #f4f4f4;
+   background-color:  #f4f4f4;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
+
+#livro2{
+   /*float: left;
+    width: 4%;
+    margin-right: 70%;*/
+   background-color:  #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    
+}
+*/
 .livros article:last-child{
 
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .livros img {
@@ -66,27 +82,48 @@ section{
 
 }
 
+.formulario{
+    
+    margin-left: 35%;
+    
+    
+}
+
 form {
     background-color: #e2e2e2;
     padding: 15px;
     border-radius:8px;
     max-width: 400px;
+    
+    
 }
 
 form input, form button{
     display: block;
     margin: 10px 0;
-    padding: 8px;
+    padding: 5px;
     width: 100%;
     border-radius: 4px;
     border: 1px solid #ccc;
+    
 }
 
 button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+
    
 
 }
 
 footer {
+
+    background-color:  #DBA30B;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    clear: both;
     
 }
