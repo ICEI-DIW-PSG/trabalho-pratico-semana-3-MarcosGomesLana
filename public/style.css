@@ -27,3 +27,66 @@ main {
 section{
     margin-bottom: 30px;
 }
+
+.autor {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.autor img {
+    float: left;
+    margin-right: 15px;
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.livros article{
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    background-color:  #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.livros article:last-child{
+
+    margin-right: 0;
+}
+
+.livros img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+form {
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius:8px;
+    max-width: 400px;
+}
+
+form input, form button{
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+   
+
+}
+
+footer {
+    
+}
