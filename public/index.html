@@ -1,97 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leia Comigo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>LEIA COMIGO</h1>
-
+    <header id="cabecalho">
+        <img src="logo.png" alt="Logo da Leia Comigo">
+        <nav class="menu">
+            <!-- Links do menu-->
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Autores</a></li>
+                <li><a href="#">Livros</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Autores</a>
-        <a href="#">Livros</a>
-        <a href="#">Sobre a Leia Comigo</a>
 
-
-    </nav>
     <main>
-        <section>
-            <h2>Conheça mais sobre</h2>
-            
-            <article class="autor">
-                <img src="https://picsum.photos/id/237/200/300" alt="autor1">
-                <h3>Napoleon Hill</h3>
-                <p>Oliver Napoleon Hill foi um autor americano de autoajuda. Ele é mais conhecido por seu livro "Pense e
-                    Enriqueça", que está entre os livros de autoajuda mais vendidos de todos os tempos. As obras de Hill
-                    enfatizavam que expectativas fervorosas são essenciais para melhorar a vida de alguém.</p>
+
+        <!--Bloco Autores-->
+        <section id="blocoAutores">
+            <article>
+                <h2>Conheça grandes autores!</h2>
+                <p>Descubra autores que mudaram a vida de mais de um milhão de pessoas.
+                    Seus livros atravessam gerações, despertam sentimentos e compartilham conhecimentos que transformam
+                    realidades. Aqui você encontra histórias que vão muito além das páginas.</p>
+                <img src="autor.jpg" alt="Imagem ilustrativa de autor">
             </article>
         </section>
 
-        <section class="livros">
-            <div class="livros"></div>
-            <h2>Livros populares</h2>
-            <article id="livro1">
-                <img src="https://picsum.photos/id/237/200/300" alt="livro1">
-                <h4>A favela venceu: De um povo heroico o brado retumbante</h4>
-                <p>Se você acha que está tendo dificuldades na vida, precisa ler este livro. Com as lições que a favela
-                    nos dá dia após dia, reinventando-se, criando, fazendo muito com pouco e empreendendo com recursos
-                    escassos, Rick Chesther nos mostra como, a partir do zero, ou do “menos um”, é possível sair da
-                    inércia e vencer na vida. A favela venceu traz uma favela que inspira pela coragem, pela força de
-                    vontade, pela esperança, pela fé e pelo brilho no olhar.</p>
-            </article>
-
-            <article id="livro2">
-                <img src="https://picsum.photos/id/237/200/300" alt="livro2">
-                <h4>Roube como um artista: 10 dicas sobre criatividade</h4>
-                <p>Coleção Pitch Deck. Plataforma para jovens negócios. Verdadeiro manifesto ilustrado de como ser
-                    criativo na era digital, Roube como um artista, do designer e escritor Austin Kleon, ganhou a lista
-                    dos mais vendidos do The New York Times e figurou no ranking de 2012 da rede Amazon ao mostrar – com
-                    bom humor, ousadia e simplicidade – que não é preciso ser um gênio para ser criativo, basta ser
-                    autêntico. Baseado numa palestra feita pelo autor na Universidade do Estado de Nova York que em
-                    pouco tempo se viralizou na internet, Roube como um artista coloca os leitores em contato direto com
-                    seu lado criativo e artístico e é um verdadeiro manual para o sucesso no século XXI. </p>
-            </article>
-            </div>
-        </section>
-        
-
-        
-        
-
-        <section>
-            <h2>Conheça mais sobre</h2>
-            <article class="autor">
-                <img src="https://picsum.photos/id/237/200/300" alt="autor2">
-                <h3>Dale Carnegie</h3>
-                <p>Dale Carnegie foi um escritor e professor americano de cursos de autoaperfeiçoamento, vendas,
-                    treinamento corporativo, oratória e habilidades interpessoais. Nascido na pobreza em uma fazenda no
-                    Missouri, ele foi o autor de Como Fazer Amigos e Influenciar Pessoas, um best-seller que continua
-                    popular até hoje.</p>
+        <!--Bloco Livros-->
+        <section id="blocoLivros">
+            <article>
+                <img src="livro.jpg" alt="Imagem ilustrativa de livro">
+                <h2>Os livros que você precisa conhecer</h2>
+                <p>Seleção de títulos que marcaram a literatura e continuam emocionando leitores ao redor do mundo.</p>
             </article>
         </section>
 
-        <section class="formulario">
-            <h2>Consulte um livro</h2>
+        <!--Formulário-->
+        <section id="formulario">
             <form>
-                <input type="text" placeholder="Nome do Autor" required>
-                <input type="text" placeholder="Nome do Livro" required>
-                <button type="submit">Pesquisar</button>
+                <h3>Receba novidades dos nossos autores</h3>
+                <input type="text" id="nome" name="nome" placeholder="Nome">
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                <button type="submit" id="enviar">Enviar</button>
             </form>
         </section>
 
     </main>
-    <footer>
-        <p>&copy; 2025 - Leia Comigo</p>
 
+    <footer class="rodape">
+        <p>© 2025 Leia Comigo. Todos os direitos reservados.</p>
     </footer>
-
 </body>
 
 </html>
