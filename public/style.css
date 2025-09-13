@@ -1,9 +1,8 @@
-* , p{
+* {
     box-sizing: border-box;
     padding: 0px;
     border: 0px;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -42,11 +41,12 @@ li{
 
 
 /*Css bloco dos autores*/
+
 #blocoAutores {
     padding-top: 15px;
     padding-left: 25px;
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: #696969;
 }
 
@@ -55,28 +55,80 @@ h2{
     font-size: 50px;
     text-align: left;
     padding-bottom: 15px;
+    font-weight: 700;
 }
 
-p{
+p, a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.6; 
+}
+
+#autores{
+   
+    float: right;
+    margin-right: 25px;
+
    
 }
 
 
+/*Bloco dos livros*/
+
 #blocoLivros {
     width: 100%;
-    height: 400px;
-
+    height: 450px;
     background-color: white;
-
+    padding-top: 15px;
+    padding-left: 25px;
 }
+
+#textBlocoLivros{
+    float: right;
+    margin-right: 25px;
+}
+
+
+/*Formulário*/
 
 #formulario {
+   
     width: 100%;
-    height: 400px;
-
+    height: 450px;
     background-color: #696969;
+    
 
 }
+
+h3{
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 700;
+
+}
+
+form{
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+input, button{
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
+   
+
+
+
+/*Rodapé*/
 
 .rodape {
 
